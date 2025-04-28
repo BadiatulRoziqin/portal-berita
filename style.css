@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+  font-family: DM Sans;
+}
+
+.navbar .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #EC1C48;
+  transition: 0.5s;
+}
+
+#hero .card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#hero {
+   margin-top: 50px;
+}
+
+#hero .card {
+  border-radius: 10px;
+}
+
+.badge {
+  max-width: fit-content;
+  padding: 5px 10px;
+}
+
+#content {
+  margin-top: 100px;
+}
+
+.card {
+  border: none;
+}
